@@ -66,10 +66,10 @@ upstream        https://github.com/codeforcauseorg/edu-client.git (push)
 
 Whenever you want to contribute to any project. It is best practice that you should create a branch and push the branch as PR rather than directly pushing main/master branch
 
-1. `git branch` will list all the branched in the repository
-2. Now type `git branch <your-branch-name>`
+1. `git branch` will list all the branches in the repository
+2. Now type `git branch <your-branch-name>` to create your branch 
 3. You can check the created branch by `git branch`
-4. But still if you start editing the edits will go to the main branch. To change the path of the edits type in `git checkout <your-branch-name>`
+4. But still if you start editing the edits will go to the main branch. To change the path type in `git checkout <your-branch-name>`
 5. Now you are ready to do the desired changes.
 
 
@@ -92,7 +92,7 @@ Whenever you want to contribute to any project. It is best practice that you sho
 
 ### 🚩 Testing changes :
 
-1. After changes type `npm test`. This launches the test runner in the interactive watch mode.
+1. After doing changes type `npm test`. This launches the test runner in the interactive watch mode.
 2. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### 🚩 Building project :
@@ -104,7 +104,7 @@ Whenever you want to contribute to any project. It is best practice that you sho
    Your app is ready to be deployed!
 5. See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Skip the yarn part and proceed to the Pushing the changes section [here](#-pushing-your-changes)
+Skip the yarn part and proceed to the pushing the changes section [here](#-pushing-your-changes)
 
 ## 📌 Setting up project using `yarn`
 
@@ -145,7 +145,7 @@ Skip the yarn part and proceed to the Pushing the changes section [here](#-pushi
 
 ## 📌 Pushing your changes
 
-Now you have made the changes , tested them, and built them. so now its time to push them.
+Now you have made the changes , tested them, and built them so now its time to push them.
 
 1. Goto your terminal and type `git status` and hit enter, this will show your changes from the files
 2. Then type in `git add` and hit enter, this will add all the files to staging area
